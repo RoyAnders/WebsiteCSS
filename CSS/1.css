@@ -13,7 +13,7 @@ strong{color:#3e61ab !Important;}
 .dg-cstm-tierprices{display:none;}
 /*.product-details-page-body .tier-prices{display:none;}*/
 
-
+#checkout-step-confirm-order .Warning_Div2{display:None;} 
 
 #small-search-box-form .k-widget{border:0px solid red; max-width:600px;} /*resizen zoekbalk in de kop ivm knop op volgende regel*/
 
