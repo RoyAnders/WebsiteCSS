@@ -190,7 +190,9 @@ tbody .amount{text-align:left !Important; padding-left:1em !Important;}
 .product-grid .fa-check-circle.green::after{content:""; font-family: Arial, Helvetica, sans-serif; font-weight: normal;}
 .product-grid .fa-check-circle.orange::after{content:""; font-family: Arial, Helvetica, sans-serif; font-weight: normal;}
 
-
+#checkout-step-confirm-order .fa-question-circle.red::after{content:""; font-family: Arial, Helvetica, sans-serif; font-weight: normal;}
+#checkout-step-confirm-order .fa-check-circle.green::after{content:""; font-family: Arial, Helvetica, sans-serif; font-weight: normal;}
+#checkout-step-confirm-order .fa-check-circle.orange::after{content:""; font-family: Arial, Helvetica, sans-serif; font-weight: normal;}
 
 .product-tags-box{display:none;}
 
