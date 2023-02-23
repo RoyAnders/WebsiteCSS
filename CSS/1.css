@@ -17,6 +17,8 @@ strong{color:#3e61ab !Important;}
 
 #small-search-box-form .k-widget{border:0px solid red; max-width:600px;} /*resizen zoekbalk in de kop ivm knop op volgende regel*/
 
+checkbox {outline:1px solid #ffa500;}
+
 
 
 /*incl of excl. knoppen vormgeven*/
