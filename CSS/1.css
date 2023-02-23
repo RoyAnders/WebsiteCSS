@@ -17,14 +17,13 @@ strong{color:#3e61ab !Important;}
 
 #small-search-box-form .k-widget{border:0px solid red; max-width:600px;} /*resizen zoekbalk in de kop ivm knop op volgende regel*/
 
-input[type="checkbox"] {background:green !Important; border:1px solid #ffa500 !Important; outline:1px solid #ffa500 !Important; }
-
-
 
 /*incl of excl. knoppen vormgeven*/
 .BTWChange{margin:1em;}
 .BTWChange li {cursor:pointer; display:block; padding:1em; margin:0.5em;}
 
+
+.remove-btn {color:red; font-weight: bold;}
 
 .html-widget{color:#777;}
 .payment-logo{display:None;} 
