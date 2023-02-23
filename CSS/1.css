@@ -23,7 +23,7 @@ strong{color:#3e61ab !Important;}
 .BTWChange li {cursor:pointer; display:block; padding:1em; margin:0.5em;}
 
 
-.remove-btn {color:red !Important; font-weight: bold;}
+.remove-from-cart, .remove-btn {color:red !Important; font-weight: bold;}
 
 .html-widget{color:#777;}
 .payment-logo{display:None;} 
