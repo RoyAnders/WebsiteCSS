@@ -10,13 +10,13 @@ h1 {color:#ffa500 !Important; }
 h2, h3, h4, h5 {color:#3e61ab !Important; }
 strong{color:#3e61ab !Important;}
 
-.dg-cstm-tierprices{display:none;}
-/*.product-details-page-body .tier-prices{display:none;}*/
+.product-details-page-body .tier-prices{display:block;}
+.product-details-page-body .attributes-wrapper .tier-prices{display:none;}
 
 #checkout-step-confirm-order .Warning_Div2{display:None;} 
 
 #small-search-box-form .k-widget{border:0px solid red; max-width:600px;} /*resizen zoekbalk in de kop ivm knop op volgende regel*/
-
+#customerTaxType, #BTWChange{color:#ffa500; font-size:16px;}
 
 /*incl of excl. knoppen vormgeven*/
 .BTWChange{margin:1em;}
@@ -73,7 +73,7 @@ strong{color:#3e61ab !Important;}
 	
 .contact_div_head{border-bottom:2px solid #ffa500;font-size:120%; font-weight:bold;text-align:center;}
 
-.item-grid  .dg-cstm-tierprices{display:none !Important;}
+/*.item-grid  .dg-cstm-tierprices{display:none !Important;}*/
 
 .aanbevelingen{text-align:center;}
 .aanbevelingen span{display:block; text-align:left; }
@@ -115,8 +115,8 @@ box-shadow: 0px 0px 0px #888888;
 .uitroepteken::before{content: "!"; font-weight: Bold; color:red !Important; margin-right:5px; font-size:150%;} 
 
 /*Om de staffel uit de shoppingcart overlay en J-carousels te halen*/
-.k-widget .dg-cstm-tierprices{display:none}
-.k-widget .dg-cstm-productinformation{display:none}
+/*.k-widget .dg-cstm-tierprices{display:none}*/
+/*.k-widget .dg-cstm-productinformation{display:none}*/
 
 
 .k-widget .html-widget{display:none}
@@ -140,9 +140,6 @@ box-shadow: 0px 0px 0px #888888;
 
 /*Restylen Tierprices Tabel*/
 
-.dg-cstm-tierprices-stock {display:None !Important;}
-
-
 div.dg-cstm-tierprices {
     padding: 5px;
     color: #777;
@@ -162,35 +159,36 @@ tbody .amount{text-align:left !Important; padding-left:1em !Important;}
 .dg-cstm-tierprices .fas{cursor: pointer;}
 .dg-cstm-tierprices .button{display:none;}
 
-
-
-
-.k-widget .tier-prices{display:block;}
+/*.k-widget .tier-prices{display:none;}*/
 
 .item-box .product-title + .sku { display: block !important; }
 .item-box .sku::Before{content:"Art."; font-family: Arial, Helvetica, sans-serif;}
 
 #jcarousel-14-444 {background:green !Important; border:1px solid black;}
 
-*:lang(nl).fa-question-circle.red::after{content:" Geen voorraad"; font-family: Arial, Helvetica, sans-serif; font-weight: normal;}
-*:lang(nl).fa-check-circle.green::after{content:" 3-5 werkdagen"; font-family: Arial, Helvetica, sans-serif; font-weight: normal;}
-*:lang(nl).fa-check-circle.orange::after{content:" 5-10 werkdagen"; font-family: Arial, Helvetica, sans-serif; font-weight: normal;}
+*:lang(nl).fa-question-circle.red::after{content:" Geen voorraad"; font-family: Arial, Helvetica, sans-serif; font-weight: normal; color:red;}
+*:lang(nl).fa-check-circle.green::after{content:" 3-5 werkdagen"; font-family: Arial, Helvetica, sans-serif; font-weight: normal; color:green; }
+*:lang(nl).fa-check-circle.orange::after{content:" 5-10 werkdagen"; font-family: Arial, Helvetica, sans-serif; font-weight: normal; color:orange;}
 
-*:lang(en).fa-question-circle.red::after{content:" Out of stock"; font-family: Arial, Helvetica, sans-serif; font-weight: normal;}
-*:lang(en).fa-check-circle.green::after{content:" 3-5 working days"; font-family: Arial, Helvetica, sans-serif; font-weight: normal;}
-*:lang(en).fa-check-circle.orange::after{content:" 5-10 working days"; font-family: Arial, Helvetica, sans-serif; font-weight: normal;}
+*:lang(en).fa-question-circle.red::after{content:" Out of stock"; font-family: Arial, Helvetica, sans-serif; font-weight: normal; color:red;}
+*:lang(en).fa-check-circle.green::after{content:" 3-5 working days"; font-family: Arial, Helvetica, sans-serif; font-weight: normal; color:green;}
+*:lang(en).fa-check-circle.orange::after{content:" 5-10 working days"; font-family: Arial, Helvetica, sans-serif; font-weight: normal; color:orange;}
 
-*:lang(de).fa-question-circle.red::after{content:" nicht vorrättig"; font-family: Arial, Helvetica, sans-serif; font-weight: normal;}
-*:lang(de).fa-check-circle.green::after{content:" 3-5 Arbeitstage"; font-family: Arial, Helvetica, sans-serif; font-weight: normal;}
-*:lang(de).fa-check-circle.orange::after{content:" 5-10 Arbeitstage"; font-family: Arial, Helvetica, sans-serif; font-weight: normal;}
+*:lang(de).fa-question-circle.red::after{content:" nicht vorrättig"; font-family: Arial, Helvetica, sans-serif; font-weight: normal; color:red;}
+*:lang(de).fa-check-circle.green::after{content:" 3-5 Arbeitstage"; font-family: Arial, Helvetica, sans-serif; font-weight: normal; color:green;}
+*:lang(de).fa-check-circle.orange::after{content:" 5-10 Arbeitstage"; font-family: Arial, Helvetica, sans-serif; font-weight: normal; color:orange;}
 
-.product-grid .fa-question-circle.red::after{content:""; font-family: Arial, Helvetica, sans-serif; font-weight: normal;}
-.product-grid .fa-check-circle.green::after{content:""; font-family: Arial, Helvetica, sans-serif; font-weight: normal;}
-.product-grid .fa-check-circle.orange::after{content:""; font-family: Arial, Helvetica, sans-serif; font-weight: normal;}
+.product-grid .fa-question-circle.red::after{content:""; font-family: Arial, Helvetica, sans-serif; font-weight: normal; color:red;}
+.product-grid .fa-check-circle.green::after{content:""; font-family: Arial, Helvetica, sans-serif; font-weight: normal; color:green;}
+.product-grid .fa-check-circle.orange::after{content:""; font-family: Arial, Helvetica, sans-serif; font-weight: normal; color:orange;}
 
-#checkout-step-confirm-order .fa-question-circle.red::after{content:""; font-family: Arial, Helvetica, sans-serif; font-weight: normal;}
-#checkout-step-confirm-order .fa-check-circle.green::after{content:""; font-family: Arial, Helvetica, sans-serif; font-weight: normal;}
-#checkout-step-confirm-order .fa-check-circle.orange::after{content:""; font-family: Arial, Helvetica, sans-serif; font-weight: normal;}
+#checkout-step-confirm-order .fa-question-circle.red::after{content:""; font-family: Arial, Helvetica, sans-serif; font-weight: normal; color:red;}
+#checkout-step-confirm-order .fa-check-circle.green::after{content:""; font-family: Arial, Helvetica, sans-serif; font-weight: normal; color:green;}
+#checkout-step-confirm-order .fa-check-circle.orange::after{content:""; font-family: Arial, Helvetica, sans-serif; font-weight: normal; color:orange;}
+
+.fa-question-circle.red{color:red;}
+.fa-check-circle.green{color:green;}
+.fa-check-circle.orange{color:orange;}
 
 .product-tags-box{display:none;}
 
