@@ -170,7 +170,7 @@ tbody .amount{text-align:left !Important; padding-left:1em !Important;}
 .fa-check-circle.green::before{content: "✓"; }
 .fa-check-circle.orange::before{content: "✓";}
 
-.fa-check-circle.green:hover::after{content: "test"; }
+.fa-check-circle.green:hover:after{content: "test"; }
 
 *:lang(nl).fa-question-circle.red::after{content:" Geen voorraad"; font-family: Arial, Helvetica, sans-serif; font-weight: normal; color:red;}
 *:lang(nl).fa-check-circle.green::after{content:" 3-5 werkdagen"; font-family: Arial, Helvetica, sans-serif; font-weight: normal; color:green; }
