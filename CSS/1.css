@@ -170,27 +170,29 @@ tbody .amount{text-align:left !Important; padding-left:1em !Important;}
 .fa-check-circle.green::before{content: "✓"; }
 .fa-check-circle.orange::before{content: "✓";}
 
-.fa-check-circle.green:hover:before{content: "test"; }
+.fa-question-circle.red:hover:before{content:" Out of stock";}
+.fa-check-circle.green:hover:before{content: " 3-5 working days"; }
+.fa-check-circle.orange:hover:before{content: " 5-10 working days";}
 
 *:lang(nl).fa-question-circle.red::after{content:" Geen voorraad"; font-family: Arial, Helvetica, sans-serif; font-weight: normal; color:red;}
 *:lang(nl).fa-check-circle.green::after{content:" 3-5 werkdagen"; font-family: Arial, Helvetica, sans-serif; font-weight: normal; color:green; }
-*:lang(nl).fa-check-circle.orange::after{content:" 5-10 werkdagen"; font-family: Arial, Helvetica, sans-serif; font-weight: normal; color:green;}
+*:lang(nl).fa-check-circle.orange::after{content:" 5-10 werkdagen"; font-family: Arial, Helvetica, sans-serif; font-weight: normal; color:orange;}
 
 *:lang(en).fa-question-circle.red::after{content:" Out of stock"; font-family: Arial, Helvetica, sans-serif; font-weight: normal; color:red;}
 *:lang(en).fa-check-circle.green::after{content:" 3-5 working days"; font-family: Arial, Helvetica, sans-serif; font-weight: normal; color:green;}
-*:lang(en).fa-check-circle.orange::after{content:" 5-10 working days"; font-family: Arial, Helvetica, sans-serif; font-weight: normal; color:green;}
+*:lang(en).fa-check-circle.orange::after{content:" 5-10 working days"; font-family: Arial, Helvetica, sans-serif; font-weight: normal; color:orange;}
 
 *:lang(de).fa-question-circle.red::after{content:" nicht vorrättig"; font-family: Arial, Helvetica, sans-serif; font-weight: normal; color:red;}
 *:lang(de).fa-check-circle.green::after{content:" 3-5 Arbeitstage"; font-family: Arial, Helvetica, sans-serif; font-weight: normal; color:green;}
-*:lang(de).fa-check-circle.orange::after{content:" 5-10 Arbeitstage"; font-family: Arial, Helvetica, sans-serif; font-weight: normal; color:green;}
+*:lang(de).fa-check-circle.orange::after{content:" 5-10 Arbeitstage"; font-family: Arial, Helvetica, sans-serif; font-weight: normal; color:orange;}
 
 .product-grid .fa-question-circle.red::after{content:""; font-family: Arial, Helvetica, sans-serif; font-weight: normal; color:red;}
 .product-grid .fa-check-circle.green::after{content:""; font-family: Arial, Helvetica, sans-serif; font-weight: normal; color:green;}
-.product-grid .fa-check-circle.orange::after{content:""; font-family: Arial, Helvetica, sans-serif; font-weight: normal; color:green;}
+.product-grid .fa-check-circle.orange::after{content:""; font-family: Arial, Helvetica, sans-serif; font-weight: normal; color:orange;}
 
 #checkout-step-confirm-order .fa-question-circle.red::after{content:""; font-family: Arial, Helvetica, sans-serif; font-weight: normal; color:red;}
 #checkout-step-confirm-order .fa-check-circle.green::after{content:""; font-family: Arial, Helvetica, sans-serif; font-weight: normal; color:green;}
-#checkout-step-confirm-order .fa-check-circle.orange::after{content:""; font-family: Arial, Helvetica, sans-serif; font-weight: normal; color:green;}
+#checkout-step-confirm-order .fa-check-circle.orange::after{content:""; font-family: Arial, Helvetica, sans-serif; font-weight: normal; color:orange;}
 
 .fa-question-circle.red{color:red;}
 .fa-check-circle.green{color:green;}
