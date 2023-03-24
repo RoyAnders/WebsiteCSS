@@ -166,9 +166,9 @@ tbody .amount{text-align:left !Important; padding-left:1em !Important;}
 
 #jcarousel-14-444 {background:green !Important; border:1px solid black;}
 
-.fa-question-circle.red::before{content:"?";}
-.fa-check-circle.green::before{content: "✓"; }
-.fa-check-circle.orange::before{content: "✓";}
+.fa-question-circle.red::before{content:"?"; font-weight: bold; font-size:16px;}
+.fa-check-circle.green::before{content: "✓"; font-weight: bold; font-size:16px;}
+.fa-check-circle.orange::before{content: "✓"; font-weight: bold; font-size:16px;}
 
 /*
 .fa-question-circle.red:hover:before{content:" Out of stock";}
